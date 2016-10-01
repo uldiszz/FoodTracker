@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2830C13B1D98C4DC001277D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2830C13A1D98C4DC001277D4 /* Assets.xcassets */; };
 		289A66201D8BED9900B6A371 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289A661F1D8BED9900B6A371 /* MealViewController.swift */; };
 		28A08BE31D8AC8A600F442E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A08BE21D8AC8A600F442E6 /* AppDelegate.swift */; };
 		28A08BE81D8AC8A600F442E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A08BE61D8AC8A600F442E6 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		28A08C051D8B0EA400F442E6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A08C041D8B0EA400F442E6 /* Meal.swift */; };
 		28A08C061D8B0EA400F442E6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A08C041D8B0EA400F442E6 /* Meal.swift */; };
 		28A08C081D8BCAA200F442E6 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A08C071D8BCAA200F442E6 /* MealTableViewCell.swift */; };
-		28A08C0A1D8BDAC900F442E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A08C091D8BDAC900F442E6 /* Assets.xcassets */; };
 		28A08C0C1D8BDCFF00F442E6 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A08C0B1D8BDCFF00F442E6 /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2830C13A1D98C4DC001277D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		289A661F1D8BED9900B6A371 /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		28A08BDF1D8AC8A600F442E6 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A08BE21D8AC8A600F442E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		28A08C021D8B018E00F442E6 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		28A08C041D8B0EA400F442E6 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		28A08C071D8BCAA200F442E6 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
-		28A08C091D8BDAC900F442E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		28A08C0B1D8BDCFF00F442E6 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 				28A08C041D8B0EA400F442E6 /* Meal.swift */,
 				28A08C021D8B018E00F442E6 /* RatingControl.swift */,
 				28A08BE61D8AC8A600F442E6 /* Main.storyboard */,
-				28A08C091D8BDAC900F442E6 /* Assets.xcassets */,
+				2830C13A1D98C4DC001277D4 /* Assets.xcassets */,
 				28A08C071D8BCAA200F442E6 /* MealTableViewCell.swift */,
 				28A08C0B1D8BDCFF00F442E6 /* MealTableViewController.swift */,
 				28A08BEB1D8AC8A600F442E6 /* LaunchScreen.storyboard */,
@@ -192,7 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A08BED1D8AC8A600F442E6 /* LaunchScreen.storyboard in Resources */,
-				28A08C0A1D8BDAC900F442E6 /* Assets.xcassets in Resources */,
+				2830C13B1D98C4DC001277D4 /* Assets.xcassets in Resources */,
 				28A08BE81D8AC8A600F442E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
